@@ -699,32 +699,33 @@ section.sep { padding-top: 48px;}
     padding: 0 10%;
 }
 .topIntroduction {margin-top: 100px;background-color: #eef0f0;display:flex;align-items: center;justify-content: space-between; padding: 0 190px;}
-.topIntroduction .imgTxt{ color: #7e8083;font-size: 2.8rem; font-weight: 700;margin-top: 40px;min-width: 400px;max-width: 700px;}
+.topIntroduction .imgTxt{ color: #7e8083;font-size: 2.27rem; font-weight: 700;margin-top: 40px;min-width: 400px;max-width: 700px;}
 
 .iotSeries .iotSeriesItems{ display: flex;align-items: start;justify-content: space-between;}
-.iotSeries .iotLine{color:#4d4d4d; font-size: 5rem;font-weight: 700; width: 100%;border-bottom: 1px solid #4d4d4d;margin-top: 50px;}
-.iotSeries .iotSeriesTitle{font-weight: 700;font-size: 2.4rem;margin-top: 30px;}
+.iotSeries .iotLine{color:#4d4d4d; font-size: 4.17rem; width: 100%;border-bottom: 1px solid #4d4d4d;margin-top: 50px;}
+.iotSeries .iotSeriesTitle{font-weight: 700;font-size: 2rem;margin-top: 30px;}
 .iotSeries .leftItem{width: 45%;position: relative;}
 .iotSeries .rightItem{width: 45%;position: relative;}
+.iotSeries .rightItem .assistant{position: absolute;left: 220px;bottom:-7px;font-size: 3rem;}
 .iotSeries a{position: absolute;right: 10px; top: 300px;}
 .iotSeries a .roundLink{width: 130px;height: 130px;border-radius: 130px;background-color: #c20063;line-height: 130px;text-align: center;font-size: 1.6rem;color: white;font-weight: 700;}
 .iotSeries .logo{margin-top: 20px;height: 32px;width:auto;}
 .iotSeries .itemImg{height: 320px;width: auto;}
-.iotSeries .iotSeriesMsg{font-size: 2.4rem;}
+.iotSeries .iotSeriesMsg{font-size: 2rem;}
 
 .iotSeriesSolve{background-color: #e4f1f5;width: 100%;margin-top: 50px;padding-top: 50px;padding-bottom: 50px;}
-.iotSeriesSolve .iotSolveLine{ text-align: center;font-size: 5rem;font-weight: 700; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d; }
+.iotSeriesSolve .iotSolveLine{ text-align: center;font-size: 4.17rem; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d; }
 .iotSeriesSolve .iotQuestion{margin-top: 60px; display: flex;align-items: flex-start;justify-content: space-between;}
 .iotSeriesSolve .iotQuestion .iotQ3{width: 30%;;padding: 20px;background-color: #fff;border-radius: 20px; position: relative;}
 .iotSeriesSolve .iotQuestion  .upTxt{font-weight: 700;font-size: 1.6rem;width: 60%;}
 .iotSeriesSolve .iotQuestion  .downTxt{font-size: 1.6rem;margin-top: 30px;}
 .iotSeriesSolve .iotQuestion  img{position: absolute;right: 10px;top: -20px;width: 110px;height: auto;}
 .iotSeriesSolve .arrow{margin-top: 20px;padding: 0 20%; display: flex;align-items: center;justify-content: space-between;}
-.iotSeriesSolve .arrow div{font-weight: 700;font-size: 4rem;}
+.iotSeriesSolve .arrow div{font-size: 4.17rem;}
 .iotSeriesSolve .iotSolve{width: 100%;border-radius: 20px;background-color: #fff;display: flex;align-items: flex-start;justify-content: space-between;padding:30px 5% 50px;}
 .iotSeriesSolve .iotSolve .iotSolve3{display: flex;align-items: center;flex-direction: column;width: 30%;}
-.iotSeriesSolve .iotSolve .iotSolve3 .imgTxt{font-weight: 700;font-size: 1.6rem;text-align: center;}
-.iotSeriesSolve .iotSolve .iotSolve3 .imgDescription{font-size: 1.6rem;text-align: center;}
+.iotSeriesSolve .iotSolve .iotSolve3 .imgTxt{margin-top: 20px; font-weight: 700;font-size: 1.6rem;text-align: center;}
+.iotSeriesSolve .iotSolve .iotSolve3 .imgDescription{margin-top: 15px; font-size: 1.6rem;text-align: center;}
 /* 小屏1024*/
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
 .topIntroduction .aiLogoTxtDiv{display: flex;flex-direction: column;align-items: center; }
@@ -772,7 +773,7 @@ section.sep { padding-top: 48px;}
 .iotSeries a{right: 10px; top: 40%;}
 .iotSeries .rightItem a{right: 10px; top: 50%;}
 .iotSeries .rightItem .itemImg{width: 80%;height: auto;}
-
+.iotSeries .rightItem .assistant{left: 168px;}
 .iotSeriesSolve{padding-top: 30px;padding-bottom: 50px;}
 
 .iotSeriesSolve .iotSolveLine{font-size: 2rem;}
