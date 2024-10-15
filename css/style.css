@@ -17,7 +17,7 @@ a:hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 
 /*LAYOUT*/
 /*******************************************************************/
 html { font-size: 62.5%;}
-body { -webkit-text-size-adjust: 100%; -webkit-overflow-scrolling: touch; height: 100%; font-family: 'Noto Sans JP', '游ゴシック', 'sans-serif'; font-size: 1.6rem; line-height: 1.4; color: #222;}
+body { -webkit-text-size-adjust: 100%; -webkit-overflow-scrolling: touch; height: 100%; font-family: 'Noto Sans JP', '游ゴシック', 'sans-serif'; font-size: 1.6rem; line-height: 1.5; color: #222;}
 body:not(.home) { background: url("img/common/bg.png") center top no-repeat;}
 #container { width: 100%; overflow: hidden;}
 i, time, .en { font-family: 'Jost', monospace; line-height: 1;}
@@ -25,9 +25,15 @@ i, time, .en { font-family: 'Jost', monospace; line-height: 1;}
 
 /*HEADER*/
 /*******************************************************************/
-#header { position: relative; display: flex; justify-content: center; padding: 32px 10%; z-index: 3000;}
+#header { position: relative; display: flex; justify-content: space-between; padding: 32px 15% ; z-index: 3000;}
 body.home #header { position: absolute; top: 0; left: 0; width: 100%;}
-#logo { position: fixed; top: 20px; left: 24px; z-index: 5000;}
+#logo {height: auto;flex-grow: 1;text-align: left}
+#menu {width: 60%;min-width: 755px;display: flex;}
+.mainBody-consulting{
+    padding: 10px 15%;
+    text-align: center;
+}
+/*#logo { position: fixed; top: 20px; left: 24px; z-index: 5000;}*/
 #menu > ul { display: flex; align-items: center; gap: 2px 32px;}
 #menu > ul > li { position: relative;}
 #menu > ul > li > a, #menu > ul > li > span { font-size: 1.5rem; transition: .2s ease-out;}
@@ -471,6 +477,7 @@ body.start .deco { opacity: 1; transform: rotate(0deg);}
 
 
 @media only screen and (max-width: 1024px){
+#logo{ text-align: left }
 body { font-size: 1.4rem;}
 body:not(.home) { background-size: 180% auto;}
 #menu { display: none;}
@@ -692,9 +699,9 @@ section.sep { padding-top: 48px;}
 /* 通用 */
 .askBtn {background-color: #77bacc;border-radius: 20px;padding:3px 15px;color: white;}
 .privacy h2 { font-size: 1.8rem;}
-#logo {width: 200px;height: auto;position: absolute;left: 10%;top: 32px;}
-#head{width: 100%;position: absolute;left: 0;top: 0;padding: 32px 190px;}
-#menu{float: right;}
+
+/*#head{width: 100%;position: absolute;left: 0;top: 0;padding: 32px 190px;}*/
+/*#menu{float: right; }*/
 /*大屏1920*/
 .mainBody{
     padding: 0 190px;
