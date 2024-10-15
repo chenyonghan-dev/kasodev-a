@@ -704,7 +704,7 @@ section.sep { padding-top: 48px;}
 /*#menu{float: right; }*/
 /*大屏1920*/
 .mainBody{
-    padding: 0 10%;
+    padding: 0 15%;
 }
 .topIntroduction {margin-top: 100px;background-color: #eef0f0;display:flex;align-items: center;justify-content: space-between; padding: 0 190px;}
 .topIntroduction .imgTxt{ color: #7e8083;font-size: 2.27rem; font-weight: 700;margin-top: 40px;min-width: 400px;max-width: 700px;}
@@ -734,6 +734,14 @@ section.sep { padding-top: 48px;}
 .iotSeriesSolve .iotSolve .iotSolve3{display: flex;align-items: center;flex-direction: column;width: 30%;}
 .iotSeriesSolve .iotSolve .iotSolve3 .imgTxt{margin-top: 20px; font-weight: 700;font-size: 1.6rem;text-align: center;}
 .iotSeriesSolve .iotSolve .iotSolve3 .imgDescription{margin-top: 15px; font-size: 1.6rem;text-align: center;}
+
+.newsDiv .newsLine{font-size: 4.17rem; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
+.newsDiv .news3{display: flex;align-items: flex-start;justify-content: space-between;margin-top: 50px;}
+.newsDiv .news3Item{border: 1px solid #4d4d4d;width: 30%;font-size: 1.45rem;}
+.newsDiv .news3Item .newsTxt{padding: 20px;}
+.newsDiv .news3Item img{width:100%;height: auto;}
+.newsDiv .newsJump{text-align: end;padding: 0 20px 20px}
+.newsDiv .newsBottomJump{font-size: 1.5rem;text-align: right;margin-top: 40px}
 /* 小屏1024*/
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
 .topIntroduction .aiLogoTxtDiv{display: flex;flex-direction: column;align-items: center; }
@@ -758,6 +766,12 @@ section.sep { padding-top: 48px;}
 .iotSeriesSolve .arrow img{width: 70px; height: auto;}
 .iotSeriesSolve .iotSolve .iotSolve3 img{width: 150px;height: auto;}
 
+.newsDiv .newsLine{font-size: 3rem}
+.newsDiv .news3{margin-top: 20px;}
+.newsDiv .news3Item .newsTxt{padding: 10px;}
+.newsDiv .news3Item img{width:100%;height: auto;}
+.newsDiv .newsJump{text-align: end;padding: 0 10px 10px}
+.newsDiv .newsBottomJump{margin-top: 30px}
 }
 
 /*768手机*/
@@ -797,4 +811,12 @@ section.sep { padding-top: 48px;}
 .iotSeriesSolve .iotSolve .iotSolve3 img{width: 150px;height: auto;}
 .iotSeriesSolve .iotSolve .iotSolve3 .imgTxt{text-align: left;}
 .iotSeriesSolve .iotSolve .iotSolve3 .imgDescription{text-align: left;}
+
+.newsDiv .newsLine{font-size: 2.4rem}
+.newsDiv .news3{margin-top: 0;display: flex;align-items: center;justify-content: center;flex-direction: column;}
+.newsDiv .news3Item{width: 90%;margin-top: 20px;}
+.newsDiv .news3Item .newsTxt{padding: 10px;}
+.newsDiv .news3Item img{width:100%;height: auto;}
+.newsDiv .newsJump{text-align: end;padding: 0 10px 10px}
+.newsDiv .newsBottomJump{margin-top: 30px}
 }
