@@ -826,37 +826,54 @@ section.sep { padding-top: 48px;}
 
 /*#head{width: 100%;position: absolute;left: 0;top: 0;padding: 32px 190px;}*/
 /*#menu{float: right; }*/
-/*大屏1920*/
+/*主页大屏1920*/
 .mainBody{
-    padding: 0 10%;
+    padding: 0 15%;
 }
 .topIntroduction {margin-top: 100px;background-color: #eef0f0;display:flex;align-items: center;justify-content: space-between; padding: 0 190px;}
-.topIntroduction .imgTxt{ color: #7e8083;font-size: 2.8rem; font-weight: 700;margin-top: 40px;min-width: 400px;max-width: 700px;}
+.topIntroduction .imgTxt{ color: #7e8083;font-size: 2.27rem; font-weight: 700;margin-top: 40px;min-width: 400px;max-width: 700px;}
 
 .iotSeries .iotSeriesItems{ display: flex;align-items: start;justify-content: space-between;}
-.iotSeries .iotLine{color:#4d4d4d; font-size: 5rem;font-weight: 700; width: 100%;border-bottom: 1px solid #4d4d4d;margin-top: 50px;}
-.iotSeries .iotSeriesTitle{font-weight: 700;font-size: 2.4rem;margin-top: 30px;}
+.iotSeries .iotLine{color:#4d4d4d; font-size: 4.17rem; width: 100%;border-bottom: 1px solid #4d4d4d;margin-top: 50px;}
+.iotSeries .iotSeriesTitle{font-weight: 700;font-size: 2rem;margin-top: 30px;}
 .iotSeries .leftItem{width: 45%;position: relative;}
 .iotSeries .rightItem{width: 45%;position: relative;}
+.iotSeries .rightItem .assistant{position: absolute;left: 220px;bottom:-7px;font-size: 3rem;}
 .iotSeries a{position: absolute;right: 10px; top: 300px;}
-.iotSeries a .roundLink{width: 130px;height: 130px;border-radius: 130px;background-color: #c20063;line-height: 130px;text-align: center;font-size: 1.6rem;color: white;font-weight: 700;}
+.iotSeries a .roundLink{width: 130px;height: 130px;border-radius: 130px;background-color: #c20063;line-height: 130px;text-align: center;font-size: 1.6666rem;color: white;font-weight: 700;}
 .iotSeries .logo{margin-top: 20px;height: 32px;width:auto;}
 .iotSeries .itemImg{height: 320px;width: auto;}
-.iotSeries .iotSeriesMsg{font-size: 2.4rem;}
+.iotSeries .iotSeriesMsg{font-size: 2rem;}
 
 .iotSeriesSolve{background-color: #e4f1f5;width: 100%;margin-top: 50px;padding-top: 50px;padding-bottom: 50px;}
-.iotSeriesSolve .iotSolveLine{ text-align: center;font-size: 5rem;font-weight: 700; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d; }
+.iotSeriesSolve .iotSolveLine{ text-align: center;font-size: 4.17rem; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d; }
 .iotSeriesSolve .iotQuestion{margin-top: 60px; display: flex;align-items: flex-start;justify-content: space-between;}
 .iotSeriesSolve .iotQuestion .iotQ3{width: 30%;;padding: 20px;background-color: #fff;border-radius: 20px; position: relative;}
 .iotSeriesSolve .iotQuestion  .upTxt{font-weight: 700;font-size: 1.6rem;width: 60%;}
 .iotSeriesSolve .iotQuestion  .downTxt{font-size: 1.6rem;margin-top: 30px;}
 .iotSeriesSolve .iotQuestion  img{position: absolute;right: 10px;top: -20px;width: 110px;height: auto;}
 .iotSeriesSolve .arrow{margin-top: 20px;padding: 0 20%; display: flex;align-items: center;justify-content: space-between;}
-.iotSeriesSolve .arrow div{font-weight: 700;font-size: 4rem;}
+.iotSeriesSolve .arrow div{font-size: 4.17rem;}
 .iotSeriesSolve .iotSolve{width: 100%;border-radius: 20px;background-color: #fff;display: flex;align-items: flex-start;justify-content: space-between;padding:30px 5% 50px;}
 .iotSeriesSolve .iotSolve .iotSolve3{display: flex;align-items: center;flex-direction: column;width: 30%;}
-.iotSeriesSolve .iotSolve .iotSolve3 .imgTxt{font-weight: 700;font-size: 1.6rem;text-align: center;}
-.iotSeriesSolve .iotSolve .iotSolve3 .imgDescription{font-size: 1.6rem;text-align: center;}
+.iotSeriesSolve .iotSolve .iotSolve3 .imgTxt{margin-top: 20px; font-weight: 700;font-size: 1.6rem;text-align: center;}
+.iotSeriesSolve .iotSolve .iotSolve3 .imgDescription{margin-top: 15px; font-size: 1.6rem;text-align: center;}
+
+.newsDiv .newsLine{font-size: 4.17rem; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
+.newsDiv .news3{display: flex;align-items: flex-start;justify-content: space-between;margin-top: 50px;}
+.newsDiv .news3Item{border: 1px solid #4d4d4d;width: 30%;font-size: 1.45rem;}
+.newsDiv .news3Item .newsTxt{padding: 20px;}
+.newsDiv .news3Item img{width:100%;height: auto;}
+.newsDiv .newsJump{text-align: end;padding: 0 20px 20px}
+.newsDiv .newsBottomJump{font-size: 1.5rem;text-align: right;margin-top: 40px}
+
+.serviceDiv{background-color: #e4f1f5;width: 100%;margin-top: 50px;padding-top: 50px;padding-bottom: 50px;}
+.serviceDiv .serviceLine{font-size: 4.17rem; width: 100%;border-bottom: 1px solid #4d4d4d;}
+.serviceDiv .service2 {display: flex;align-items: center;justify-content: space-between;margin-top:40px;}
+.serviceDiv .service2 .serviceItem{width: 47%;font-size: 2rem;position: relative;}
+.serviceDiv .service2 .serviceItem .serviceTxt{margin-top: 60px;}
+.serviceDiv .roundLink{right: 5%; bottom: 65px;width: 130px;height: 130px;border-radius: 130px;background-color: #c20063;line-height: 130px;text-align: center;font-size: 1.666rem;color: white;font-weight: 700;position: absolute;}
+
 /* 小屏1024*/
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
 .topIntroduction .aiLogoTxtDiv{display: flex;flex-direction: column;align-items: center; }
@@ -881,6 +898,20 @@ section.sep { padding-top: 48px;}
 .iotSeriesSolve .arrow img{width: 70px; height: auto;}
 .iotSeriesSolve .iotSolve .iotSolve3 img{width: 150px;height: auto;}
 
+.newsDiv .newsLine{font-size: 3rem}
+.newsDiv .news3{margin-top: 20px;}
+.newsDiv .news3Item .newsTxt{padding: 10px;}
+.newsDiv .news3Item img{width:100%;height: auto;}
+.newsDiv .newsJump{text-align: end;padding: 0 10px 10px}
+.newsDiv .newsBottomJump{margin-top: 30px}
+
+.serviceDiv{background-color: #e4f1f5;width: 100%;margin-top: 20px;padding-top:20px;padding-bottom: 50px;}
+.serviceDiv .serviceLine{font-size: 3rem; }
+.serviceDiv .service2 {margin-top:20px;}
+.serviceDiv .service2 .serviceItem{width: 47%;font-size: 2rem;position: relative;}
+.serviceDiv .service2 .serviceItem .serviceTxt{margin-top: 60px;}
+.serviceDiv .roundLink{font-size: 1.45rem;;right: 5%; bottom: 110px;width: 100px;height: 100px;border-radius: 100px;line-height: 100px;}
+
 }
 
 /*768手机*/
@@ -899,12 +930,12 @@ section.sep { padding-top: 48px;}
 .iotSeries .iotSeriesMsg{font-size:1.6rem;}
 .iotSeries a{position: absolute;right: 50px; top: 200px;}
 .iotSeries .logo{margin-top: 10px;height: 24px;width:auto;}
-.iotSeries a .roundLink{width: 100px;height: 100px;line-height: 100px;font-size: 1.6rem;}
+.iotSeries a .roundLink{width: 100px;height: 100px;line-height: 100px;font-size: 1.666rem;}
 .iotSeries .itemImg{height: auto;width: 90%;}
 .iotSeries a{right: 10px; top: 40%;}
 .iotSeries .rightItem a{right: 10px; top: 50%;}
 .iotSeries .rightItem .itemImg{width: 80%;height: auto;}
-
+.iotSeries .rightItem .assistant{left: 168px;}
 .iotSeriesSolve{padding-top: 30px;padding-bottom: 50px;}
 
 .iotSeriesSolve .iotSolveLine{font-size: 2rem;}
@@ -920,4 +951,83 @@ section.sep { padding-top: 48px;}
 .iotSeriesSolve .iotSolve .iotSolve3 img{width: 150px;height: auto;}
 .iotSeriesSolve .iotSolve .iotSolve3 .imgTxt{text-align: left;}
 .iotSeriesSolve .iotSolve .iotSolve3 .imgDescription{text-align: left;}
+
+.newsDiv .newsLine{font-size: 2.4rem}
+.newsDiv .news3{margin-top: 0;display: flex;align-items: center;justify-content: center;flex-direction: column;}
+.newsDiv .news3Item{width: 90%;margin-top: 20px;}
+.newsDiv .news3Item .newsTxt{padding: 10px;}
+.newsDiv .news3Item img{width:100%;height: auto;}
+.newsDiv .newsJump{text-align: end;padding: 0 10px 10px}
+.newsDiv .newsBottomJump{margin-top: 30px}
+
+.serviceDiv{background-color: #e4f1f5;width: 100%;margin-top: 20px;padding-top:20px;padding-bottom: 50px;}
+.serviceDiv .serviceLine{font-size: 3rem; }
+.serviceDiv .service2 {margin-top:20px;flex-direction: column; }
+.serviceDiv .service2 .serviceItem{padding: 20px; width: 90%;font-size: 1.6rem;position: relative; margin-top: 20px;border: 1px solid #4d4e4f;}
+.serviceDiv .service2 .serviceItem .serviceTxt{margin-top: 30px;}
+.serviceDiv .roundLink{font-size: 1.4rem;;right: 2%; bottom: 110px;width: 80px;height:80px;line-height: 80px;}
+
+}
+
+/*aiotica 主页大屏*/
+/*topIntroduction 通用*/
+.aiotTop{ background:url('../img/aioticaBg.jpg') ;}
+.smallScreen{display: none;}
+
+.blueDiv{padding-top: 40px;padding-bottom: 100px; width: 100%;background: url(../img/blueBg.jpg) }
+.blueDiv .blueLine{color: #fff !important; text-align: center;font-size: 3.33rem; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d; }
+.blueDiv .sixDiv{margin-top:25px; color: #fff; display: flex;align-items: flex-start;justify-content: space-between;}
+.blueDiv .six3{width: 49%;}
+.blueDiv .sixItem{min-height: 200px; margin-top: 25px; box-shadow: 2px 2px 10px 0px #4e7fa5  ;background-color: rgba(255, 255, 255, 0.2);border-radius: 20px;padding: 25px 20px 30px;}
+.blueDiv .blueTitle{font-size: 2.33rem;}
+.blueDiv .blueTxt{font-size: 1.67rem;margin-top: 15px;}
+
+.fiveRoundDiv {margin-top: 40px;}
+.fiveRoundDiv .fiveRoundLine{ text-align: center;font-size: 3.33rem; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
+.fiveRoundDiv .allRound{position: relative; height: 800px;}
+.fiveRoundDiv .smallRound{display: flex;align-items: center;justify-content: center;flex-direction: column; position:absolute; width: 380px;height: 221px; ; background:url(../img/smallRound.png);background-size: cover}
+.fiveRoundDiv .bigRound{position: absolute; left: 50%;top: 50%; margin-top: -145px;margin-left: -250px;width: 500px;height: 290px; ; background:url(../img/bigRound.png);background-size: cover}
+.fiveRoundDiv .allRound .roundTitle{font-size: 2.42rem;text-align: center;}
+.fiveRoundDiv .allRound .roundTxt{font-size: 1.83rem;margin-top: 10px;}
+.fiveRoundDiv .smallRound1{left: 17%;top: 18%;}
+.fiveRoundDiv .smallRound2{right: 17%;top: 18%;}
+.fiveRoundDiv .smallRound3{left: 17%;bottom: 18%;}
+.fiveRoundDiv .smallRound4{right: 17%;bottom: 18%;}
+.fiveRoundDiv .bigRound{line-height: 290px;text-align: center;font-size: 3.75rem;color: #77BACC;}
+/* 小屏1024*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+.bigScreen{display: none;}
+.smallScreen{display: block;}
+
+.blueDiv .blueLine{font-size: 3rem;}
+.blueDiv .blueTitle{font-size: 2rem;}
+.blueDiv .blueTxt{font-size: 1.6rem;margin-top: 20px;}
+.blueDiv .six3{width: 48%;}
+.blueDiv .sixItem{min-height: 280px;}
+
+.fiveRoundDiv .fiveRoundLine{ font-size: 3rem;}
+.fiveRoundDiv .allRound{ height: 600px;}
+.fiveRoundDiv .smallRound{width: 300px;height: 174.5px; ; background:url(../img/smallRound.png);background-size: cover}
+.fiveRoundDiv .bigRound{ left: 50%;top: 50%; margin-top: -87px;margin-left: -150px;width: 300px;height: 174px;}
+.fiveRoundDiv .allRound .roundTitle{font-size: 2.2rem;}
+.fiveRoundDiv .allRound .roundTxt{font-size: 1.6rem;margin-top: 10px;}
+.fiveRoundDiv .smallRound1{left: 0;top:0;}
+.fiveRoundDiv .smallRound2{right: 0;top: 0;}
+.fiveRoundDiv .smallRound3{left: 0;bottom: 0;}
+.fiveRoundDiv .smallRound4{right:0;bottom:0;}
+.fiveRoundDiv .bigRound{line-height: 174px;font-size:2.4rem;}
+}
+
+
+/*768手机*/
+@media only screen and (max-width: 768px) {
+.bigScreen{display: none;}
+.smallScreen{display: block;}
+
+.blueDiv{background-size: cover; padding-bottom: 50px;}
+.blueDiv .blueLine{font-size: 3rem;}
+.blueDiv .blueTitle{font-size: 2rem;}
+.blueDiv .blueTxt{font-size: 1.6rem;margin-top: 20px;}
+.blueDiv .six3{width: 100%;}
+.blueDiv .sixDiv{margin-top:25px;flex-direction: column;}
 }
