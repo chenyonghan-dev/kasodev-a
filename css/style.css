@@ -75,6 +75,7 @@ body.home #header { position: absolute; top: 0; left: 0; width: 100%;}
     margin-top: 15px;
 }
 .box3-left{
+    min-width: 75px;
     width: 75px;
     display: flex;
     align-items: center;
