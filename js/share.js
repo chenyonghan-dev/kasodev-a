@@ -1,3 +1,68 @@
+$(function(){
+	$('#header').html(`<div id="logo" ><a href="#"><img src="/img/logo.png"  alt="嘉創株式会社"></a></div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="/">Aioticat</a></li>
+                    <li><a href="/sensor_partner/">パートナー</a></li>
+                    <li><a href="/consulting/">コンサルティング</a></li>
+                    <li><a href="/case/">導入事例</a></li>
+                    <li><a href="/device/">IOT デバイス</a></li>
+                    <li><a href="/news/">ニュース</a></li>
+                    <li><a href="/contact/" class="askBtn">問い合わせ</a></li>
+                </ul>
+            </nav>
+
+            <nav id="nav">
+                <div class="nav">
+                    <ul>
+                        <li><a href="/">TOP </a></li>
+                        <li><a href="/">Aiotica </a>
+                            <ul>
+                                <li><a href="/">Aiotica とは</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="/assistant/">Aiotica　Assistant とは</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="/aioticat/">Platform</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="">Gateway</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="">AWS</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/sensor_partner/">パートナー</a>
+                            <ul>
+                                <li><a href="/sensor_partner/">センサーパートナープログラム</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="/partner/">パートナープログラム</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/consulting/">コンサルティング</a></li>
+                        <li><a href="/case/">導入事例</a>
+                            <ul>
+                                <li><a href="/ip/">知的財産</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="/ip/">知的財産</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/device/">IOT デバイス</a></li>
+                        <li><a href="/news/">ニュース</a></li>
+                        <li><a href="/contact/">お問合せ</a></li>
+                    </ul>
+                    <ul class="sub">
+                        <li><a href="/policy/">プライバシーポリシー</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="open">
+                <div><span></span><span></span><span></span></div><i>MENU</i>
+            </div>`)
+});
 window.onpageshow = function(event){
     if(event.persisted){
         window.location.reload();
