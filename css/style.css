@@ -1002,7 +1002,7 @@ section.sep { padding-top: 48px;}
 .aiotTop{ background:url('../img/aioticaBg.jpg') ;}
 .smallScreen{display: none;}
 
-.blueDiv{padding-top: 40px;padding-bottom: 100px; width: 100%;background: url(../img/blueBg.jpg) }
+.blueDiv{padding-top: 40px;padding-bottom: 100px; width: 100%;background: url(../img/blueBg.jpg);background-size: cover;}
 .blueDiv .blueLine{color: #fff !important; text-align: center;font-size: 3.33rem; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d; }
 .blueDiv .sixDiv{margin-top:25px; color: #fff; display: flex;align-items: flex-start;justify-content: space-between;}
 .blueDiv .six3{width: 49%;}
@@ -1022,6 +1022,24 @@ section.sep { padding-top: 48px;}
 .fiveRoundDiv .smallRound3{left: 17%;bottom: 18%;}
 .fiveRoundDiv .smallRound4{right: 17%;bottom: 18%;}
 .fiveRoundDiv .bigRound{line-height: 290px;text-align: center;font-size: 3.75rem;color: #77BACC;}
+
+.businessDiv {margin-top: 40px;padding-top: 40px;padding-bottom: 60px; width: 100%;background-color: #e4f1f5;}
+.businessDiv .businessLine{text-align: center; font-size: 3.33rem; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
+.businessDiv .businessTitle{font-size: 1.83rem;margin-top: 40px;}
+.businessDiv .talentLine{font-size: 2.5rem; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d; }
+.businessDiv .talentTitle{font-size: 2rem;font-weight: 700;margin-top: 20px;}
+.businessDiv .talentTxt{font-size: 1.83rem;margin-top: 20px;}
+
+.skillDiv{margin-top: 40px;padding-bottom: 600px;}
+.skillDiv .skillLine{font-size: 3.33rem; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
+.skillDiv .allSkillItem {display: flex;align-items: center;justify-content: space-between;}
+.skillDiv .allSkillItem .skillItem{ position: relative;;width: 48%;font-size: 2rem;}
+.skillDiv .allSkillItem .skillItem .skillImg{margin-top: 10px; border: 1px solid black;}
+.skillDiv .allSkillItem .skillItem .skillTitle{margin-top: 20px;}
+.skillDiv .allSkillItem .skillItem .skillTxt{margin-top: 40px;}
+.skillDiv a{position: absolute;right: 0px; top:350px; }
+.skillDiv .roundLink{width: 110px;height: 110px;border-radius: 130px;background-color: #c20063;line-height: 110px;text-align: center;font-size: 1.6666rem;color: white;font-weight: 700;}
+
 /* 小屏1024*/
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
 .bigScreen{display: none;}
@@ -1037,13 +1055,17 @@ section.sep { padding-top: 48px;}
 .fiveRoundDiv .allRound{ height: 600px;}
 .fiveRoundDiv .smallRound{width: 300px;height: 174.5px; ; background:url(../img/smallRound.png);background-size: cover}
 .fiveRoundDiv .bigRound{ left: 50%;top: 50%; margin-top: -87px;margin-left: -150px;width: 300px;height: 174px;}
-.fiveRoundDiv .allRound .roundTitle{font-size: 2.2rem;}
-.fiveRoundDiv .allRound .roundTxt{font-size: 1.6rem;margin-top: 10px;}
-.fiveRoundDiv .smallRound1{left: 0;top:0;}
-.fiveRoundDiv .smallRound2{right: 0;top: 0;}
-.fiveRoundDiv .smallRound3{left: 0;bottom: 0;}
-.fiveRoundDiv .smallRound4{right:0;bottom:0;}
+.fiveRoundDiv .allRound .roundTitle{font-size: 1.8rem;}
+.fiveRoundDiv .allRound .roundTxt{font-size: 1.4rem;margin-top: 10px;}
+.fiveRoundDiv .smallRound1{left: 0;top:10%;}
+.fiveRoundDiv .smallRound2{right: 0;top: 10%;}
+.fiveRoundDiv .smallRound3{left: 0;bottom: 10%;}
+.fiveRoundDiv .smallRound4{right:0;bottom:10%;}
 .fiveRoundDiv .bigRound{line-height: 174px;font-size:2.4rem;}
+.skillDiv .skillLine{font-size: 3rem;}
+.skillDiv a{position: absolute;right: 0px; top: 200px; }
+.skillDiv .roundLink{width: 80px;height: 80px;line-height: 80px;font-size: 1.2rem;}
+
 }
 
 
@@ -1058,4 +1080,25 @@ section.sep { padding-top: 48px;}
 .blueDiv .blueTxt{font-size: 1.6rem;margin-top: 20px;}
 .blueDiv .six3{width: 100%;}
 .blueDiv .sixDiv{margin-top:25px;flex-direction: column;}
+
+.fiveRoundDiv .bigRound{line-height: 174px;text-align: center;font-size: 3rem;color: #77BACC;}
+.fiveRoundDiv .allRound{ height: 700px;}
+.fiveRoundDiv .smallRound{width: 300px;height: 174px; ; background:url(../img/smallRound.png);background-size: cover}
+.fiveRoundDiv .bigRound{display: none;}
+.fiveRoundDiv .allRound .roundTitle{font-size: 2rem;}
+.fiveRoundDiv .allRound .roundTxt{font-size: 1.6rem;margin-top: 10px;}
+
+.fiveRoundDiv .smallRound1{left: 50%;top:5%;margin-left: -150px;}
+.fiveRoundDiv .smallRound2{left: 50%;top:30%;margin-left: -150px;}
+.fiveRoundDiv .smallRound3{left: 50%;top:55%;margin-left: -150px;}
+.fiveRoundDiv .smallRound4{left: 50%;top:80%;margin-left: -150px;}
+.businessDiv .businessLine{font-size: 3rem;}
+
+.skillDiv .allSkillItem {flex-direction: column;}
+.skillDiv .allSkillItem .skillItem{width: 95%;}
+.skillDiv .allSkillItem .skillItem .skillTxt{margin-top: 20px;}
+
+.skillDiv a{position: absolute;right: 0px; top: 200px; }
+.skillDiv .roundLink{width: 80px;height: 80px;line-height: 80px;font-size: 1.2rem;}
+
 }
