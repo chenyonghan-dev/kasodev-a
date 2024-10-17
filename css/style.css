@@ -1142,7 +1142,7 @@ section.sep { padding-top: 48px;}
 .effectDiv{margin-top: 40px;padding-bottom:600px;}
 .effectDiv .effectLine{text-align: center; font-size: 3.33rem; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
 .effectDiv .topTitle{font-size: 1.83rem;margin-top: 20px;}
-.effectDiv .effectTitle{font-size: 2rem;margin-top: 20px;}
+.effectDiv .effectTitle{font-size: 2rem;margin-top: 30px;}
 .effectDiv .effectTxt{font-size: 1.83rem;margin-top: 20px;}
 
 
@@ -1208,4 +1208,27 @@ section.sep { padding-top: 48px;}
 
 .effectDiv{margin-top: 40px;padding-top: 40px; padding-bottom: 400px;}
 .effectDiv .effectLine{font-size: 3rem; }
+.effectDiv .effectTitle{font-size: 1.8rem;}
+.effectDiv .effectTxt{font-size: 1.6rem;}
+}
+
+/*gateway主页大屏*/
+.gatewayTopDiv{margin-top: 140px;}
+.gatewayTopDiv .gatewayTopTitle{font-size: 2rem;text-align: center;margin-top: 20px;}
+.gatewayTopDiv .gatewayTopLine{font-size: 3.33rem;text-align: center; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
+.gatewayTopDiv img{width: 100%;height: auto;margin-top: 20px;}
+
+
+/*gateway 小屏1024*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+.gatewayTopDiv .gatewayTopLine{font-size: 3rem;}    
+.gatewayTopDiv .gatewayTopTitle{font-size: 1.6rem;}
+.gatewayTopDiv .gatewayBr{display: none;}
+}
+/*gateway 768手机*/
+@media only screen and (max-width: 768px) {
+.gatewayTopDiv .gatewayTopLine{font-size: 3rem;}    
+.gatewayTopDiv .gatewayTopTitle{font-size: 1.6rem;}
+.gatewayTopDiv .gatewayBr{display: none;}
+
 }
