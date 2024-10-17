@@ -51,12 +51,11 @@ body.home #header { position: absolute; top: 0; left: 0; width: 100%;}
     grid-auto-rows: 1fr;
 }
 .box2{
-    background-image: url("/img/back3.png");
-    background-size: cover;
-    opacity: 70%;
-    padding: 20px;
+    background-size: 100% 100%;
+    /*opacity: 70%;*/
+    padding: 30px 40px 50px 40px;
     /*height: 200px;*/
-    box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, 0.2);
+    /*box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, 0.2);*/
     /*width: 49%;*/
 }
 .box2-title{

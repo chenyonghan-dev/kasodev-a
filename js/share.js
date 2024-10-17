@@ -24,14 +24,11 @@ $(function(){
                                 <li><a href="/assistant/">Aiotica　Assistant とは</a></li>
                             </ul>
                             <ul>
-                                <li><a href="/aioticat/">Platform</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="">Gateway</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="">AWS</a></li>
-                            </ul>
+                            	<div style="margin-top: 20px;margin-left: 10px">技術</div>
+                                <li style="margin-top: 20px;margin-left: 10px"><a href="/aioticat/">Platform</a></li>
+                                <li style="margin-top: 20px;margin-left: 10px"><a href="">Gateway</a></li>
+                                <li style="margin-top: 20px;margin-left: 10px"><a href="">AWS</a></li>
+							</ul>
                         </li>
                         <li><a href="/sensor_partner/">パートナー</a>
                             <ul>
