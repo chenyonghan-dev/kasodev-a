@@ -1427,3 +1427,58 @@ section.sep { padding-top: 48px;}
 .gatewayTopDiv .gatewayBr{display: none;}
 
 }
+
+
+/*aws主页大屏*/
+.awsDiv{margin-top: 140px;}
+.awsDiv .awsTitle{font-size: 2rem;text-align: center;margin-top: 20px;}
+.awsDiv .awsLine{font-size: 3.33rem;text-align: center; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
+.awsDiv img{width: 100%;height: auto;margin-top: 20px;}
+
+.useDiv{margin-top: 40px; padding-top: 40px;}
+.useDiv .useLine{ font-size: 3.33rem;text-align: center; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
+.useDiv .useItem{ margin-top: 20px;border: 1px solid #4d4d4d;display: flex;align-items: center;}
+.useDiv .useItem .useLeft{ color: #fff; padding:20px 0;width: 320px; background-color: #77bacc;text-align: center;font-size: 2.67rem;}
+.useDiv .useItem .useRight{text-align: center;font-size: 2rem; width: 100%;}
+
+.mainFun{margin-top: 40px; padding-top: 40px;padding-bottom: 600px;}
+.mainFun .mainFunLine{ font-size: 3.33rem;text-align: center; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
+.mainFun .mainFunTopTitle{font-size: 1.83rem;margin-top: 40px;}
+.mainFun .mainFunTitle{font-size: 2rem;margin-top: 20px;}
+.mainFun .mainFunMsg{width: 100%; display: flex;align-items: center; font-size: 1.83rem;}
+.mainFun .mainFunMsg .mainFunTxt{ padding: 20px 0;}
+.mainFun .mainFunMsg .mainFunTxtBorder { padding: 20px 0;}
+.mainFun .underLine{border-top: 1px solid #4d4d4d;}
+
+
+/*gateway 小屏1024*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+.awsDiv .awsLine{font-size: 3rem;}    
+.awsDiv .awsTitle{font-size: 1.6rem;}
+.awsDiv .gatewayBr{display: none;}
+
+.useDiv .useLine{ font-size: 3rem;}
+.useDiv .useItem .useLeft{ color: #fff; padding:20px 0;width: 320px; background-color: #77bacc;text-align: center;font-size: 2.4rem;}
+.useDiv .useItem .useRight{text-align: center;font-size: 1.8rem; width: 100%;}
+
+.mainFun .mainFunLine{ font-size: 3rem;}
+.mainFun .mainFunTopTitle{font-size: 1.6rem}
+.mainFun .mainFunTitle{font-size: 1.8rem}
+.mainFun .mainFunMsg{font-size: 1.6rem;}
+
+}
+/*gateway 768手机*/
+@media only screen and (max-width: 768px) {
+.awsDiv .awsLine{font-size: 3rem;}    
+.awsDiv .awsTitle{font-size: 1.6rem;}
+.awsDiv .gatewayBr{display: none;}
+
+.useDiv .useLine{ font-size: 3rem;}
+.useDiv .useItem{flex-direction: column;}
+.useDiv .useItem .useLeft{ padding:5px 0;width: 100%; font-size: 2rem;}
+.useDiv .useItem .useRight{padding: 20px; text-align: center;font-size: 1.8rem; width: 100%;}
+
+.mainFun .mainFunTopTitle{font-size: 1.6rem}
+.mainFun .mainFunTitle{font-size: 1.8rem}
+.mainFun .mainFunMsg{font-size: 1.6rem;}
+}
