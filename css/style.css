@@ -221,6 +221,98 @@ body.home #header { position: absolute; top: 0; left: 0; width: 100%;}
     color: #77BACC;
     margin-bottom: 10px;
 }
+.device-container{
+    margin-top: 60px;
+    text-align: left;
+}
+.device-title{
+    border-bottom: 1px solid black;
+    border-left-width: 20px;
+    border-left-style: solid;
+    font-size: 2.83rem;
+    margin-bottom: 20px;
+}
+.device-content1{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    gap: 10px;
+    padding: 10px 0;
+}
+.device-text{
+    font-size: 2rem;
+}
+.device-card-title{
+    font-size: 2.17rem;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.device-card-container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+.device-content2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px 0;
+}
+.device-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    background-image: url("/img/device_back.png");
+    height: 140px;
+    background-size: 100% 100%;
+    text-align: center;
+
+}
+.device-card-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.5rem;
+    background-image: url("/img/device_back.png");
+    height: auto;
+    background-size: 100% 100%;
+    padding: 30px 20px 50px 20px;
+    text-align: center;
+}
+.device-image{
+    height: 100%;
+    width: 100%;
+}
+.device-content3{
+    padding: 20px 0;
+}
+.device-cards-container{
+    padding: 40px 0;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-auto-rows: 1fr;
+
+}
+.device-card-0{
+    font-size: 1.3rem;
+    border-top: 10px solid #BDCCD4;
+    box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, 0.2);
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+.device-img{
+    text-align: center;
+}
+.device-title-1{
+    font-size: 1.8rem;
+}
+.device-text-1{
+    padding: 20px 0;
+}
 @media only screen and (max-width: 768px) {
     .box1{
         width: 100%;
@@ -272,6 +364,18 @@ body.home #header { position: absolute; top: 0; left: 0; width: 100%;}
     }
     .consulting-div{
         padding: 80px 5%;
+    }
+    .device-content1{
+        grid-template-columns: 1fr;
+    }
+    .device-content2{
+        grid-template-columns: 1fr;
+    }
+    .device-card-container{
+        grid-template-columns: 1fr;
+    }
+    .device-cards-container{
+        grid-template-columns: 1fr;
     }
 }
 

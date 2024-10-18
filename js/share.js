@@ -41,10 +41,10 @@ $(function(){
                         <li><a href="/consulting/">コンサルティング</a></li>
                         <li><a href="/case/">導入事例</a>
                             <ul>
-                                <li><a href="/ip/">知的財産</a></li>
+                                <li><a href="/case/">導入事例</a></li>
                             </ul>
                             <ul>
-                                <li><a href="/ip/">知的財産</a></li>
+                                <li><a href="/service/">サービス</a></li>
                             </ul>
                         </li>
                         <li><a href="/device/">IOT デバイス</a></li>
