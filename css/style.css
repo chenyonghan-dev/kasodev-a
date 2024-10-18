@@ -1155,7 +1155,6 @@ section.sep { padding-top: 48px;}
 .skillDiv .skillLine{font-size: 3rem;}
 .skillDiv a{position: absolute;right: 0px; top: 200px; }
 .skillDiv .roundLink{width: 80px;height: 80px;line-height: 80px;font-size: 1.2rem;}
-
 }
 
 
@@ -1190,5 +1189,137 @@ section.sep { padding-top: 48px;}
 
 .skillDiv a{position: absolute;right: 0px; top: 200px; }
 .skillDiv .roundLink{width: 80px;height: 80px;line-height: 80px;font-size: 1.2rem;}
+
+}
+
+/*assitant 主页面*/
+.assistantDiv {margin-top: 100px;}
+.assistantDiv .assistantTopImg{width: 100%;height: auto;}
+
+.methodDiv{margin-top: 40px;padding-bottom: 60px;}
+.methodDiv .methodLine{font-size: 3.33rem;text-align: center; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
+.methodDiv .methodTwoDiv{display: flex;align-items: center;justify-content: space-between;}
+.methodDiv .methodTitle{font-size: 2.33rem; text-align: center;margin: 20px;}
+.methodDiv .methodTxt{font-size: 2rem;}
+.methodDiv .methodItem{width: 48%;margin-top: 40px;}
+
+.featureDiv{margin-top: 40px;padding-top: 40px; background-color: #d2ebef;padding-bottom: 60px;}
+.featureDiv .featureLine{font-size: 3.33rem;text-align: center; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
+.featureDiv .featureTwoDiv{margin-top: 40px; display: flex;align-items: flex-start;justify-content: space-between;}
+.featureDiv .featureTwoDiv img{width: 45%;height: auto;}
+.featureDiv .fourFeatureDiv{margin-left: 40px;}
+.featureDiv .fourFeatureDiv .featureItem{margin-top: 20px; background-color: #fff;padding: 20px;border: 1px solid #4d4d4d;}
+.featureDiv .fourFeatureDiv .featureTitle{font-weight: 700;text-align: center;color: #77bacc;font-size: 2.17rem;}
+.featureDiv .fourFeatureDiv .featureTxt{font-size: 1.83rem;margin-top: 5px;}
+
+.functionDiv{margin-top: 40px; padding-bottom: 60px;}
+.functionDiv .functionLine{font-size: 3.33rem;text-align: center; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
+.functionDiv .fourFunDiv{font-size: #666666; display: flex;align-items: flex-start;justify-content: space-between;}
+.functionDiv .fourFunDiv .leftItems{width: 49%;margin-top: 15px;}
+.functionDiv .fourFunDiv .rightItems{width: 49%;margin-top: 15px;}
+.functionDiv .fourFunDiv .funItem{min-height: 187px;padding: 30px 20px;width: 100%;margin-top: 25px;background-color: #f5f5f5;border-radius:15px;border: 1px solid #dadada;}
+.functionDiv .fourFunDiv .funItem .funTitle{font-size: 2.17rem;}
+.functionDiv .fourFunDiv .funItem .funTxt{font-size: 1.83rem;margin-top: 10px;}
+
+.advantageDiv {margin-top: 40px;padding-top: 40px;padding-bottom: 60px; width: 100%;background-color: #e4f1f5;}
+.advantageDiv .advantageLine{text-align: center; font-size: 3.33rem; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
+.advantageDiv .advFiveDiv{margin-top: 40px; color: #4d4d4d; flex-wrap: wrap; display: flex;align-items: flex-start;justify-content: space-between;}
+.advantageDiv .advFiveDiv .advantageItem{min-height: 300px;padding: 45px 20px 30px; width: 30%;background-color: #fff;box-shadow: 5px 5px 8px #7b959c;}
+.advantageDiv .advFiveDiv .advantageItem .advTitle{text-align: center; font-size: 1.83rem;}
+.advantageDiv .advFiveDiv .advantageItem .advTxt{font-size: 1.5rem;margin-top: 20px;}
+.advantageDiv .advFiveDiv .advBottomTwoDiv1{margin-top: 40px;margin-left:17.5%;}
+.advantageDiv .advFiveDiv .advBottomTwoDiv2{margin-top: 40px;margin-right:17.5%;}
+
+.effectDiv{margin-top: 40px;padding-bottom:600px;}
+.effectDiv .effectLine{text-align: center; font-size: 3.33rem; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
+.effectDiv .topTitle{font-size: 1.83rem;margin-top: 20px;}
+.effectDiv .effectTitle{font-size: 2rem;margin-top: 30px;}
+.effectDiv .effectTxt{font-size: 1.83rem;margin-top: 20px;}
+
+
+/* 小屏1024*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+.methodDiv .methodLine{font-size: 3rem;}
+.methodDiv .methodTitle{font-size: 2rem; margin: 10px;}
+.methodDiv .methodTxt{font-size: 1.6rem;}
+.methodDiv .methodItem{width: 48%;margin-top: 30px;}
+
+.featureDiv .featureLine{font-size: 3rem;}
+.featureDiv .featureTwoDiv{flex-direction: column;align-items: center;}
+.featureDiv .featureTwoDiv img{width: 100%;height: auto;}
+.featureDiv .fourFeatureDiv{margin-left: 0;}
+.featureDiv .fourFeatureDiv .featureTitle{font-weight: 700;font-size: 2rem;}
+.featureDiv .fourFeatureDiv .featureTxt{font-size: 1.6rem;margin-top: 5px;}
+
+.functionDiv .functionLine{font-size: 3rem;}
+.functionDiv .fourFunDiv .funItem .funTitle{font-size: 2rem;}
+.functionDiv .fourFunDiv .funItem .funTxt{font-size: 1.6rem;margin-top: 10px;}
+
+.skillDiv .skillLine{font-size: 3rem;}
+.advantageDiv .advFiveDiv .advantageItem{min-height: 300px;padding: 45px 20px 30px; width: 48%;}
+.advantageDiv .advFiveDiv .advBottomTwoDiv1{margin-top: 0;margin-left:0;}
+.advantageDiv .advFiveDiv .advBottomTwoDiv2{margin-top: 0;margin-right:0;}
+.advantageDiv .advFiveDiv{margin-top: 0;}
+.advantageDiv .advFiveDiv .advantageItem{margin-top: 30px;}
+
+.effectDiv{margin-top: 40px;padding-top: 40px; padding-bottom: 400px;}
+.effectDiv .effectLine{font-size: 3rem; }
+
+
+}
+
+
+/*768手机*/
+@media only screen and (max-width: 768px) {
+.methodDiv .methodTwoDiv{flex-direction: column;}
+.methodDiv .methodLine{font-size: 3rem;}
+.methodDiv .methodTitle{font-size: 2rem; margin: 10px;}
+.methodDiv .methodTxt{font-size: 1.6rem;}
+.methodDiv .methodItem{width: 100%;margin-top: 30px;}
+.featureDiv .featureLine{font-size: 3rem;}
+.featureDiv .featureTwoDiv{flex-direction: column;align-items: center;}
+.featureDiv .featureTwoDiv img{width: 100%;height: auto;}
+.featureDiv .fourFeatureDiv{margin-left: 0;}
+.featureDiv .fourFeatureDiv .featureTitle{font-weight: 700;font-size: 2rem;}
+.featureDiv .fourFeatureDiv .featureTxt{font-size: 1.6rem;margin-top: 5px;}
+
+.functionDiv .functionLine{font-size: 3rem;}
+.functionDiv .fourFunDiv .funItem .funTitle{font-size: 2rem;}
+.functionDiv .fourFunDiv .funItem .funTxt{font-size: 1.6rem;margin-top: 10px;}
+.functionDiv .fourFunDiv{flex-direction: column;}
+.functionDiv .fourFunDiv .leftItems{width: 100%;margin-top: 10px;}
+.functionDiv .fourFunDiv .rightItems{width: 100%;margin-top: 10px;}
+
+.skillDiv .skillLine{font-size: 3rem;}
+.advantageDiv .advFiveDiv .advantageItem{min-height: 250px; padding: 20px; width: 100%;}
+.advantageDiv .advFiveDiv .advBottomTwoDiv1{margin-top: 0;margin-left:0;}
+.advantageDiv .advFiveDiv .advBottomTwoDiv2{margin-top: 0;margin-right:0;}
+.advantageDiv .advFiveDiv{margin-top: 0;}
+.advantageDiv .advFiveDiv .advantageItem{margin-top: 30px;}
+
+.effectDiv{margin-top: 40px;padding-top: 40px; padding-bottom: 400px;}
+.effectDiv .effectLine{font-size: 3rem; }
+.effectDiv .effectTitle{font-size: 1.8rem;}
+.effectDiv .effectTxt{font-size: 1.6rem;}
+}
+
+/*gateway主页大屏*/
+.gatewayTopDiv{margin-top: 140px;}
+.gatewayTopDiv .gatewayTopTitle{font-size: 2rem;text-align: center;margin-top: 20px;}
+.gatewayTopDiv .gatewayTopLine{font-size: 3.33rem;text-align: center; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
+.gatewayTopDiv img{width: 100%;height: auto;margin-top: 20px;}
+
+
+/*gateway 小屏1024*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+.gatewayTopDiv .gatewayTopLine{font-size: 3rem;}    
+.gatewayTopDiv .gatewayTopTitle{font-size: 1.6rem;}
+.gatewayTopDiv .gatewayBr{display: none;}
+}
+/*gateway 768手机*/
+@media only screen and (max-width: 768px) {
+.gatewayTopDiv .gatewayTopLine{font-size: 3rem;}    
+.gatewayTopDiv .gatewayTopTitle{font-size: 1.6rem;}
+.gatewayTopDiv .gatewayBr{display: none;}
 
 }

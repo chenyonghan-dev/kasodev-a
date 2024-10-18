@@ -26,8 +26,8 @@ $(function(){
                             <ul>
                             	<div style="margin-top: 20px;margin-left: 10px">技術</div>
                                 <li style="margin-top: 20px;margin-left: 10px"><a href="/aioticat/">Platform</a></li>
-                                <li style="margin-top: 20px;margin-left: 10px"><a href="">Gateway</a></li>
-                                <li style="margin-top: 20px;margin-left: 10px"><a href="">AWS</a></li>
+                                <li style="margin-top: 20px;margin-left: 10px"><a href="/gateway/">Gateway</a></li>
+                                <li style="margin-top: 20px;margin-left: 10px"><a href="/aws/">AWS</a></li>
 							</ul>
                         </li>
                         <li><a href="/sensor_partner/">パートナー</a>
