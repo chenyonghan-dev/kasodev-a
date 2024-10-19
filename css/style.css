@@ -1490,7 +1490,7 @@ section.sep { padding-top: 48px;}
 .mainFun .underLine{border-top: 1px solid #4d4d4d;}
 
 
-/*gateway 小屏1024*/
+/*aws 小屏1024*/
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
 .awsDiv .awsLine{font-size: 3rem;}    
 .awsDiv .awsTitle{font-size: 1.6rem;}
@@ -1506,7 +1506,7 @@ section.sep { padding-top: 48px;}
 .mainFun .mainFunMsg{font-size: 1.6rem;}
 
 }
-/*gateway 768手机*/
+/*aws 768手机*/
 @media only screen and (max-width: 768px) {
 .awsDiv .awsLine{font-size: 3rem;}    
 .awsDiv .awsTitle{font-size: 1.6rem;}
@@ -1520,4 +1520,79 @@ section.sep { padding-top: 48px;}
 .mainFun .mainFunTopTitle{font-size: 1.6rem}
 .mainFun .mainFunTitle{font-size: 1.8rem}
 .mainFun .mainFunMsg{font-size: 1.6rem;}
+}
+
+/*case主页大屏*/
+.example {margin-top: 40px;padding-bottom: 60px;}
+.example .exampleLine{font-size: 3.33rem;text-align: center; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
+.example .allExampleItems{  display: flex;align-items: flex-start;justify-content: space-between;flex-wrap: wrap;}
+.example .allExampleItems .exampleItem{margin-top: 40px; border: 1px solid #4d4d4d; width: 48%;border-radius: 20px;}
+.example .allExampleItems .exampleItem img{border-top-left-radius: 20px;border-top-right-radius: 20px;}
+.example .allExampleItems .exampleItem .exampleMsg{padding: 20px;}
+.example .allExampleItems .exampleItem .exampleTitle{font-size: 2.17rem;color: #77bacc;}
+.example .allExampleItems .exampleItem .exampleTxt{font-size: 1.67;margin-top: 20px;}
+
+.liveDiv{margin-top: 40px;padding-bottom: 60px;padding-top: 40px;background-color: #e4f1f5;}
+.liveLine{font-size: 3.33rem;width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
+.liveTopTitle{font-size: 1.83rem;margin-top: 40px;}
+.liveImg{margin-top: 40px;}
+.allLiveDiv .liveItem{position: relative; border: 1px solid #4d4d4d;margin-top: 20px;  display: grid;grid-template-columns: 100px 1fr;background-color: #fff; }
+.allLiveDiv .liveNum{background-color: #77bacc; width: 100px;height: 100px;line-height: 100px;text-align: center;font-weight: 700; font-size: 5rem;color: #fff;}
+.allLiveDiv .liveMsg{padding: 10px 20px 30px;min-height: 150px;}
+.allLiveDiv .liveMsg .liveTitle{font-weight: 700; font-size: 2.33rem;color: #77bacc;}
+.allLiveDiv .liveMsg .liveBold{font-weight: 700;font-size: 2rem;margin-top: 5px}
+.allLiveDiv .liveMsg .liveTxt{font-size: 2rem;}
+
+.bluePoint {margin-top: 3px; width: 20px;height: 40px;background-color: #008fd7;}
+.watchDiv{ margin-top: 40px;padding-bottom: 60px;}
+.watchDiv .watchTop{margin-top: 50px; display: flex;align-items:center; font-size: 2.83rem;font-weight: 700;}
+.watchDiv .watchTop img{margin-left: 20px; width: 50%;height: auto;}
+.watchDiv .serviceItems{display: flex;background-color: #d6ebf6;padding: 20px 0;margin-top: 20px;}
+.watchDiv .serviceItems .serviceTitle{ padding: 0 20px; color: #0090d9;font-weight: 700; font-size: 4rem;text-align: center;}
+.watchDiv .serviceItems .serviceMsg {display: flex; align-items: center;flex-wrap: wrap;}
+.watchDiv .serviceItems .serviceMsg .serviceItem{width: 300px; font-weight: 700;font-size: 2.17rem;}
+
+.watchDiv .condensation .conLine{margin-top: 20px; margin-bottom: 40px; display: flex; font-size: 2.83rem;width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
+.watchDiv .condensation .conTopTitle{font-weight: 700;font-size: 2rem;color: #4d4d4d;}
+.watchDiv .condensation .conImg{margin-top: 40px;}
+
+.watchDiv .plantCon{margin-top: 40px;}
+.plantBgc{background-color: #e4f1f5;padding-top: 40px;padding-bottom: 60px;}
+/*case 小屏1024*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+.example .exampleLine{font-size: 3rem;}
+.liveLine{font-size: 3rem;}
+.allLiveDiv .liveNum{height: 70px;width: 70px;line-height: 70px;font-size: 3rem;}
+.allLiveDiv .liveItem{grid-template-columns:70px 1fr}
+
+.watchDiv .watchTop{font-size: 2.2rem;margin-top: 40px;}
+.watchDiv  .serviceItems{display: block;}
+.watchDiv  .serviceItems .serviceMsg{display: block;}
+.watchDiv  .serviceItems .serviceItem{margin-left: 20px;font-size: 2rem;}
+
+
+}
+/*case 768手机*/
+@media only screen and (max-width: 768px) {
+.example .exampleLine{font-size: 3rem;}
+.example .allExampleItems .exampleItem{width: 100%;}
+
+.liveLine{font-size: 3rem;}
+.allLiveDiv .liveItem{display: block;}
+.allLiveDiv .liveNum{height: 50px;width: 50px;line-height: 50px;font-size: 2rem;}
+.allLiveDiv .liveTitle{font-size: 1.8rem !important;line-height: 1.8rem; position: absolute; top: 15px;left: 60px;}
+.allLiveDiv .liveMsg .liveBold{margin-top: 0;font-size: 1.8rem;}
+.allLiveDiv .liveMsg {padding: 5px 20px}
+.allLiveDiv .liveMsg .liveTxt{margin-bottom: 20px; font-size: 1.8rem;}
+
+.watchDiv .watchTop{margin-top: 20px;}
+.watchDiv .watchTop{font-size:1.6rem;}
+.watchDiv .serviceItems{display: block;padding-top: 5px;}
+.watchDiv .serviceItems .serviceTitle{font-size: 3rem;}
+.watchDiv .watchTop img{margin-left: 0; width: 60%;}
+.watchDiv  .serviceItems .serviceMsg{display: block;}
+.watchDiv  .serviceItems .serviceItem{margin-left: 20px;font-size: 2rem;}
+
+.watchDiv .condensation .conLine{font-size: 2.4rem;}
+
 }
