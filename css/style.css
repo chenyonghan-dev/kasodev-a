@@ -280,6 +280,9 @@ body.home #header { position: absolute; top: 0; left: 0; width: 100%;}
     padding: 30px 20px 50px 20px;
     text-align: center;
 }
+.device-card-1 img{
+    height: 130px;
+}
 .device-image{
     height: 100%;
     width: 100%;
@@ -312,6 +315,39 @@ body.home #header { position: absolute; top: 0; left: 0; width: 100%;}
 }
 .device-text-1{
     padding: 20px 0;
+}
+.service_card_container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-auto-rows: 1fr;
+}
+.card1-image img{
+    width: 100%;
+}
+.card1-title{
+    font-size: 2.17rem;
+    color: #77BACC;
+    padding: 20px 0;
+}
+.card1-content{
+    font-size: 1.67rem;
+}
+.service2{
+    padding: 30px 0;
+    text-align: left;
+}
+.service2-title{
+    font-size: 2.83rem;
+    border-bottom: 1px solid black;
+}
+.service2-img{
+    width: 100%;
+    margin: 30px 0 0 0;
+}
+.service2-content{
+    font-size: 2rem;
+    line-height: 2;
 }
 @media only screen and (max-width: 768px) {
     .box1{
@@ -375,6 +411,9 @@ body.home #header { position: absolute; top: 0; left: 0; width: 100%;}
         grid-template-columns: 1fr;
     }
     .device-cards-container{
+        grid-template-columns: 1fr;
+    }
+    .service_card_container{
         grid-template-columns: 1fr;
     }
 }
