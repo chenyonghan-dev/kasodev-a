@@ -474,7 +474,7 @@ body.start #nav { transition: 1s cubic-bezier(.19,1,.22,1);}
 
 /*CONTENTS*/
 /*******************************************************************/
-article { position: relative; padding: 120px 10%;}
+article { position: relative;}
 article header { text-align: center; margin-bottom: 40px;}
 article header h2 { font-size: 4rem; font-weight: 500; letter-spacing: 0.05em;}
 article header p { margin-top: 24px; line-height: 2;}
@@ -1092,7 +1092,7 @@ section.sep { padding-top: 48px;}
 .mainBody{
     padding: 0 15%;
 }
-.topIntroduction {margin-top: 100px;background-color: #eef0f0;display:flex;align-items: center;justify-content: space-between; padding: 0 190px;}
+.topIntroduction {background-color: #eef0f0;display:flex;align-items: center;justify-content: space-between; padding: 0 190px;}
 .topIntroduction .imgTxt{ color: #7e8083;font-size: 2.27rem; font-weight: 700;margin-top: 40px;min-width: 400px;max-width: 700px;}
 
 .iotSeries .iotSeriesItems{ display: flex;align-items: start;justify-content: space-between;}
@@ -1336,7 +1336,7 @@ section.sep { padding-top: 48px;}
 }
 
 /*assitant 主页面*/
-.assistantDiv {margin-top: 100px;}
+/* .assistantDiv {margin-top: 100px;} */
 .assistantDiv .assistantTopImg{width: 100%;height: auto;}
 
 .methodDiv{margin-top: 40px;padding-bottom: 60px;}
@@ -1447,7 +1447,7 @@ section.sep { padding-top: 48px;}
 }
 
 /*gateway主页大屏*/
-.gatewayTopDiv{margin-top: 140px;}
+/* .gatewayTopDiv{margin-top: 140px;} */
 .gatewayTopDiv .gatewayTopTitle{font-size: 2rem;text-align: center;margin-top: 20px;}
 .gatewayTopDiv .gatewayTopLine{font-size: 3.33rem;text-align: center; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
 .gatewayTopDiv img{width: 100%;height: auto;margin-top: 20px;}
@@ -1469,7 +1469,7 @@ section.sep { padding-top: 48px;}
 
 
 /*aws主页大屏*/
-.awsDiv{margin-top: 140px;}
+/* .awsDiv{margin-top: 140px;} */
 .awsDiv .awsTitle{font-size: 2rem;text-align: center;margin-top: 20px;}
 .awsDiv .awsLine{font-size: 3.33rem;text-align: center; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
 .awsDiv img{width: 100%;height: auto;margin-top: 20px;}
