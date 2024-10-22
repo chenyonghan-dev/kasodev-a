@@ -1133,7 +1133,7 @@ section.sep { padding-top: 48px;}
 .serviceDiv .service2 {display: flex;align-items: center;justify-content: space-between;margin-top:40px;}
 .serviceDiv .service2 .serviceItem{width: 47%;font-size: 2rem;position: relative;}
 .serviceDiv .service2 .serviceItem .serviceTxt{margin-top: 60px;}
-.serviceDiv .roundLink{right: 5%; bottom: 65px;width: 130px;height: 130px;border-radius: 130px;background-color: #c20063;line-height: 130px;text-align: center;font-size: 1.666rem;color: white;font-weight: 700;position: absolute;}
+.serviceDiv .roundLink{right: 0%; bottom: 65px;width: 130px;height: 130px;border-radius: 130px;background-color: #c20063;line-height: 130px;text-align: center;font-size: 1.666rem;color: white;font-weight: 700;position: absolute;}
 
 /* 小屏1024*/
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
