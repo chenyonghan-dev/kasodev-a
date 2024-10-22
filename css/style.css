@@ -18,7 +18,7 @@ a:hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 
 /*******************************************************************/
 html { font-size: 62.5%;}
 body { -webkit-text-size-adjust: 100%; -webkit-overflow-scrolling: touch; height: 100%; font-family: 'Noto Sans JP', '游ゴシック', 'sans-serif'; font-size: 1.6rem; line-height: 1.5; color: #222;}
-body:not(.home) { background: url("img/common/bg.png") center top no-repeat;}
+/* body:not(.home) { background: url("img/common/bg.png") center top no-repeat;} */
 #container { width: 100%; overflow: hidden;}
 i, time, .en { font-family: 'Jost', monospace; line-height: 1;}
 
@@ -67,7 +67,7 @@ body.home #header { position: absolute; top: 0; left: 0; width: 100%;}
     grid-auto-rows: 1fr;
 }
 #container_partner .box2{
-    background-image: url("/img/back_8.png");
+    background-image: url("../img/back_8.png");
     background-size: 100% 100%;
     /*opacity: 70%;*/
     padding: 30px 40px 50px 40px;
@@ -106,6 +106,7 @@ body.home #header { position: absolute; top: 0; left: 0; width: 100%;}
     font-size: 2rem;
     align-items: center;
     padding: 10px 30px;
+    text-align: left;
 }
 .form-grid{
     display: grid;
@@ -164,7 +165,7 @@ body.home #header { position: absolute; top: 0; left: 0; width: 100%;}
     border-bottom: 1px solid black;
 }
 .consulting-div{
-    background-image: url("/img/blueBg.jpg");
+    background-image: url("../img/blueBg.jpg");
     background-size: 100% 100%;
     margin-bottom: 100px;
     padding: 80px 15%;
@@ -262,7 +263,7 @@ body.home #header { position: absolute; top: 0; left: 0; width: 100%;}
     justify-content: center;
     align-items: center;
     font-size: 2.5rem;
-    background-image: url("/img/device_back.png");
+    background-image: url("../img/device_back.png");
     height: 140px;
     background-size: 100% 100%;
     text-align: center;
@@ -274,7 +275,7 @@ body.home #header { position: absolute; top: 0; left: 0; width: 100%;}
     flex-direction: column;
     align-items: center;
     font-size: 2.5rem;
-    background-image: url("/img/device_back.png");
+    background-image: url("../img/device_back.png");
     height: auto;
     background-size: 100% 100%;
     padding: 30px 20px 50px 20px;
@@ -473,7 +474,7 @@ body.start #nav { transition: 1s cubic-bezier(.19,1,.22,1);}
 
 /*CONTENTS*/
 /*******************************************************************/
-article { position: relative; padding: 120px 10%;}
+article { position: relative;}
 article header { text-align: center; margin-bottom: 40px;}
 article header h2 { font-size: 4rem; font-weight: 500; letter-spacing: 0.05em;}
 article header p { margin-top: 24px; line-height: 2;}
@@ -1091,7 +1092,7 @@ section.sep { padding-top: 48px;}
 .mainBody{
     padding: 0 15%;
 }
-.topIntroduction {margin-top: 100px;background-color: #eef0f0;display:flex;align-items: center;justify-content: space-between; padding: 0 190px;}
+.topIntroduction {background-color: #eef0f0;display:flex;align-items: center;justify-content: space-between; padding: 0 190px;}
 .topIntroduction .imgTxt{ color: #7e8083;font-size: 2.27rem; font-weight: 700;margin-top: 40px;min-width: 400px;max-width: 700px;}
 
 .iotSeries .iotSeriesItems{ display: flex;align-items: start;justify-content: space-between;}
@@ -1133,7 +1134,7 @@ section.sep { padding-top: 48px;}
 .serviceDiv .service2 {display: flex;align-items: center;justify-content: space-between;margin-top:20px;}
 .serviceDiv .service2 .serviceItem{width: 47%;font-size: 2rem;position: relative;}
 .serviceDiv .service2 .serviceItem .serviceTxt{margin-top: 60px;}
-.serviceDiv .roundLink{right: 0%; bottom: 65px;width: 130px;height: 130px;border-radius: 130px;background-color: #c20063;line-height: 130px;text-align: center;font-size: 1.666rem;color: white;font-weight: 700;position: absolute;}
+.serviceDiv .roundLink{right: 0%; bottom: 0px;width: 130px;height: 130px;border-radius: 130px;background-color: #c20063;line-height: 130px;text-align: center;font-size: 1.666rem;color: white;font-weight: 700;position: absolute;}
 
 /* 小屏1024*/
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -1262,7 +1263,7 @@ section.sep { padding-top: 48px;}
 .businessDiv .talentTitle{font-size: 2rem;font-weight: 700;margin-top: 20px;}
 .businessDiv .talentTxt{font-size: 1.83rem;margin-top: 20px;}
 
-.skillDiv{margin-top: 40px;padding-bottom: 600px;}
+.skillDiv{margin-top: 40px;padding-bottom: 100px;}
 .skillDiv .skillLine{font-size: 3.33rem; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
 .skillDiv .allSkillItem {display: flex;align-items: center;justify-content: space-between;}
 .skillDiv .allSkillItem .skillItem{width: 48%;font-size: 2rem;}
@@ -1335,7 +1336,7 @@ section.sep { padding-top: 48px;}
 }
 
 /*assitant 主页面*/
-.assistantDiv {margin-top: 100px;}
+/* .assistantDiv {margin-top: 100px;} */
 .assistantDiv .assistantTopImg{width: 100%;height: auto;}
 
 .methodDiv{margin-top: 40px;padding-bottom: 60px;}
@@ -1371,7 +1372,7 @@ section.sep { padding-top: 48px;}
 .advantageDiv .advFiveDiv .advantageItem .advTitle{text-align: center; font-size: 1.83rem;}
 .advantageDiv .advFiveDiv .advantageItem .advTxt{font-size: 1.5rem;margin-top: 20px;}
 
-.effectDiv{margin-top: 40px;padding-bottom:600px;}
+.effectDiv{margin-top: 40px;padding-bottom:100px;}
 .effectDiv .effectLine{text-align: center; font-size: 3.33rem; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
 .effectDiv .topTitle{font-size: 1.83rem;margin-top: 20px;}
 .effectDiv .effectTitle{font-size: 2rem;margin-top: 30px;}
@@ -1441,7 +1442,7 @@ section.sep { padding-top: 48px;}
 }
 
 /*gateway主页大屏*/
-.gatewayTopDiv{margin-top: 140px;}
+/* .gatewayTopDiv{margin-top: 140px;} */
 .gatewayTopDiv .gatewayTopTitle{font-size: 2rem;text-align: center;margin-top: 20px;}
 .gatewayTopDiv .gatewayTopLine{font-size: 3.33rem;text-align: center; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
 .gatewayTopDiv img{width: 100%;height: auto;margin-top: 20px;}
@@ -1463,7 +1464,7 @@ section.sep { padding-top: 48px;}
 
 
 /*aws主页大屏*/
-.awsDiv{margin-top: 140px;}
+/* .awsDiv{margin-top: 140px;} */
 .awsDiv .awsTitle{font-size: 2rem;text-align: center;margin-top: 20px;}
 .awsDiv .awsLine{font-size: 3.33rem;text-align: center; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
 .awsDiv img{width: 100%;height: auto;margin-top: 20px;}
@@ -1474,7 +1475,7 @@ section.sep { padding-top: 48px;}
 .useDiv .useItem .useLeft{ color: #fff; padding:20px 0;width: 320px; background-color: #77bacc;text-align: center;font-size: 2.67rem;}
 .useDiv .useItem .useRight{text-align: center;font-size: 2rem; width: 100%;}
 
-.mainFun{margin-top: 40px; padding-top: 40px;padding-bottom: 600px;}
+.mainFun{margin-top: 40px; padding-top: 40px;padding-bottom: 100px;}
 .mainFun .mainFunLine{ font-size: 3.33rem;text-align: center; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
 .mainFun .mainFunTopTitle{font-size: 1.83rem;margin-top: 40px;}
 .mainFun .mainFunTitle{font-size: 2rem;margin-top: 20px;}

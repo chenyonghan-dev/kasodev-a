@@ -94,14 +94,14 @@ $(function(){
     });
 	
 	
-	$('a[href^="#"]').on('click', function(){
-		$('#header').removeClass('open');
-		var href= $(this).attr('href');
-		var target = $(href == "#" || href == "" ? 'html' : href);
-		var position = target.offset().top;
-		$('html, body').animate({scrollTop:position - 100}, 500, 'swing');
-		return false;
-	});
+	// $('a[href^="#"]').on('click', function(){
+	// 	$('#header').removeClass('open');
+	// 	var href= $(this).attr('href');
+	// 	var target = $(href == "#" || href == "" ? 'html' : href);
+	// 	var position = target.offset().top;
+	// 	// $('html, body').animate({scrollTop:position - 100}, 500, 'swing');
+	// 	return false;
+	// });
     
     
     $('#nav li a').filter(function(){
