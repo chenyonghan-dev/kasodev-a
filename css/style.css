@@ -1269,7 +1269,7 @@ section.sep { padding-top: 48px;}
 .skillDiv .allSkillItem .skillItem .skillImg{position: relative;margin-top: 10px; border: 1px solid black;}
 .skillDiv .allSkillItem .skillItem .skillTitle{margin-top: 20px;}
 .skillDiv .allSkillItem .skillItem .skillTxt{margin-top: 40px;}
-.skillDiv a{position: absolute;right: 0px; bottom: -13%; }
+.skillDiv a{position: absolute;right: 0px; bottom: -10%; }
 .skillDiv .roundLink{width: 110px;height: 110px;border-radius: 130px;background-color: #c20063;line-height: 110px;text-align: center;font-size: 1.6666rem;color: white;font-weight: 700;}
 
 /* 小屏1024*/
