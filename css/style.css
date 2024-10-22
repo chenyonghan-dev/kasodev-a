@@ -1238,9 +1238,8 @@ section.sep { padding-top: 48px;}
 
 .blueDiv{padding-top: 40px;padding-bottom: 100px; width: 100%;background: url(../img/blueBg.jpg);background-size: cover;}
 .blueDiv .blueLine{color: #fff !important; text-align: center;font-size: 3.33rem; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d; }
-.blueDiv .sixDiv{margin-top:25px; color: #fff; display: flex;align-items: flex-start;justify-content: space-between;}
-.blueDiv .six3{width: 49%;}
-.blueDiv .sixItem{min-height: 200px; margin-top: 25px; box-shadow: 2px 2px 10px 0px #4e7fa5  ;background-color: rgba(255, 255, 255, 0.2);border-radius: 20px;padding: 25px 20px 30px;}
+.blueDiv .sixDiv{margin-top:25px; color: #fff; display: grid;gap:20px;grid-template-columns:repeat(2,1fr)}
+.blueDiv .sixItem{  box-shadow: 2px 2px 10px 0px #4e7fa5  ;background-color: rgba(255, 255, 255, 0.2);border-radius: 20px;padding: 25px 20px 30px;}
 .blueDiv .blueTitle{font-size: 2.33rem;}
 .blueDiv .blueTxt{font-size: 1.67rem;margin-top: 15px;}
 
@@ -1312,7 +1311,7 @@ section.sep { padding-top: 48px;}
 .blueDiv .blueTitle{font-size: 2rem;}
 .blueDiv .blueTxt{font-size: 1.6rem;margin-top: 20px;}
 .blueDiv .six3{width: 100%;}
-.blueDiv .sixDiv{margin-top:25px;flex-direction: column;}
+.blueDiv .sixDiv{grid-template-columns:repeat(1,1fr)}
 
 .fiveRoundDiv .bigRound{line-height: 174px;text-align: center;font-size: 3rem;color: #77BACC;}
 .fiveRoundDiv .allRound{ height: 700px;}
