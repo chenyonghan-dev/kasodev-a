@@ -18,7 +18,7 @@ a:hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 
 /*******************************************************************/
 html { font-size: 62.5%;}
 body { -webkit-text-size-adjust: 100%; -webkit-overflow-scrolling: touch; height: 100%; font-family: 'Noto Sans JP', '游ゴシック', 'sans-serif'; font-size: 1.6rem; line-height: 1.5; color: #222;}
-body:not(.home) { background: url("img/common/bg.png") center top no-repeat;}
+/* body:not(.home) { background: url("img/common/bg.png") center top no-repeat;} */
 #container { width: 100%; overflow: hidden;}
 i, time, .en { font-family: 'Jost', monospace; line-height: 1;}
 
@@ -67,7 +67,7 @@ body.home #header { position: absolute; top: 0; left: 0; width: 100%;}
     grid-auto-rows: 1fr;
 }
 #container_partner .box2{
-    background-image: url("/img/back_8.png");
+    background-image: url("../img/back_8.png");
     background-size: 100% 100%;
     /*opacity: 70%;*/
     padding: 30px 40px 50px 40px;
@@ -165,7 +165,7 @@ body.home #header { position: absolute; top: 0; left: 0; width: 100%;}
     border-bottom: 1px solid black;
 }
 .consulting-div{
-    background-image: url("/img/blueBg.jpg");
+    background-image: url("../img/blueBg.jpg");
     background-size: 100% 100%;
     margin-bottom: 100px;
     padding: 80px 15%;
@@ -263,7 +263,7 @@ body.home #header { position: absolute; top: 0; left: 0; width: 100%;}
     justify-content: center;
     align-items: center;
     font-size: 2.5rem;
-    background-image: url("/img/device_back.png");
+    background-image: url("../img/device_back.png");
     height: 140px;
     background-size: 100% 100%;
     text-align: center;
@@ -275,7 +275,7 @@ body.home #header { position: absolute; top: 0; left: 0; width: 100%;}
     flex-direction: column;
     align-items: center;
     font-size: 2.5rem;
-    background-image: url("/img/device_back.png");
+    background-image: url("../img/device_back.png");
     height: auto;
     background-size: 100% 100%;
     padding: 30px 20px 50px 20px;
