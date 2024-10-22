@@ -1263,7 +1263,7 @@ section.sep { padding-top: 48px;}
 .businessDiv .talentTitle{font-size: 2rem;font-weight: 700;margin-top: 20px;}
 .businessDiv .talentTxt{font-size: 1.83rem;margin-top: 20px;}
 
-.skillDiv{margin-top: 40px;padding-bottom: 600px;}
+.skillDiv{margin-top: 40px;padding-bottom: 100px;}
 .skillDiv .skillLine{font-size: 3.33rem; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
 .skillDiv .allSkillItem {display: flex;align-items: center;justify-content: space-between;}
 .skillDiv .allSkillItem .skillItem{width: 48%;font-size: 2rem;}
@@ -1480,7 +1480,7 @@ section.sep { padding-top: 48px;}
 .useDiv .useItem .useLeft{ color: #fff; padding:20px 0;width: 320px; background-color: #77bacc;text-align: center;font-size: 2.67rem;}
 .useDiv .useItem .useRight{text-align: center;font-size: 2rem; width: 100%;}
 
-.mainFun{margin-top: 40px; padding-top: 40px;padding-bottom: 600px;}
+.mainFun{margin-top: 40px; padding-top: 40px;padding-bottom: 100px;}
 .mainFun .mainFunLine{ font-size: 3.33rem;text-align: center; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
 .mainFun .mainFunTopTitle{font-size: 1.83rem;margin-top: 40px;}
 .mainFun .mainFunTitle{font-size: 2rem;margin-top: 20px;}
