@@ -106,6 +106,7 @@ body.home #header { position: absolute; top: 0; left: 0; width: 100%;}
     font-size: 2rem;
     align-items: center;
     padding: 10px 30px;
+    text-align: left;
 }
 .form-grid{
     display: grid;
