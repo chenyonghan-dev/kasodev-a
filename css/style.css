@@ -1265,11 +1265,11 @@ section.sep { padding-top: 48px;}
 .skillDiv{margin-top: 40px;padding-bottom: 600px;}
 .skillDiv .skillLine{font-size: 3.33rem; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
 .skillDiv .allSkillItem {display: flex;align-items: center;justify-content: space-between;}
-.skillDiv .allSkillItem .skillItem{ position: relative;;width: 48%;font-size: 2rem;}
-.skillDiv .allSkillItem .skillItem .skillImg{margin-top: 10px; border: 1px solid black;}
+.skillDiv .allSkillItem .skillItem{width: 48%;font-size: 2rem;}
+.skillDiv .allSkillItem .skillItem .skillImg{position: relative;margin-top: 10px; border: 1px solid black;}
 .skillDiv .allSkillItem .skillItem .skillTitle{margin-top: 20px;}
 .skillDiv .allSkillItem .skillItem .skillTxt{margin-top: 40px;}
-.skillDiv a{position: absolute;right: 0px; top:350px; }
+.skillDiv a{position: absolute;right: 0px; bottom: -13%; }
 .skillDiv .roundLink{width: 110px;height: 110px;border-radius: 130px;background-color: #c20063;line-height: 110px;text-align: center;font-size: 1.6666rem;color: white;font-weight: 700;}
 
 /* 小屏1024*/
@@ -1295,7 +1295,7 @@ section.sep { padding-top: 48px;}
 .fiveRoundDiv .smallRound4{right:0;bottom:10%;}
 .fiveRoundDiv .bigRound{line-height: 174px;font-size:2.4rem;}
 .skillDiv .skillLine{font-size: 3rem;}
-.skillDiv a{position: absolute;right: 0px; top: 200px; }
+.skillDiv a{position: absolute;right: 0px; bottom: -15%; }
 .skillDiv .roundLink{width: 80px;height: 80px;line-height: 80px;font-size: 1.2rem;}
 }
 
@@ -1329,7 +1329,7 @@ section.sep { padding-top: 48px;}
 .skillDiv .allSkillItem .skillItem{width: 95%;}
 .skillDiv .allSkillItem .skillItem .skillTxt{margin-top: 20px;}
 
-.skillDiv a{position: absolute;right: 0px; top: 200px; }
+.skillDiv a{bottom: -10%;}
 .skillDiv .roundLink{width: 80px;height: 80px;line-height: 80px;font-size: 1.2rem;}
 
 }
