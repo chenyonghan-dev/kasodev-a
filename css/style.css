@@ -1130,7 +1130,7 @@ section.sep { padding-top: 48px;}
 
 .serviceDiv{background-color: #e4f1f5;width: 100%;margin-top: 50px;padding-top: 50px;padding-bottom: 50px;}
 .serviceDiv .serviceLine{font-size: 4.17rem; width: 100%;border-bottom: 1px solid #4d4d4d;}
-.serviceDiv .service2 {display: flex;align-items: center;justify-content: space-between;margin-top:40px;}
+.serviceDiv .service2 {display: flex;align-items: center;justify-content: space-between;margin-top:20px;}
 .serviceDiv .service2 .serviceItem{width: 47%;font-size: 2rem;position: relative;}
 .serviceDiv .service2 .serviceItem .serviceTxt{margin-top: 60px;}
 .serviceDiv .roundLink{right: 0%; bottom: 65px;width: 130px;height: 130px;border-radius: 130px;background-color: #c20063;line-height: 130px;text-align: center;font-size: 1.666rem;color: white;font-weight: 700;position: absolute;}
@@ -1171,7 +1171,7 @@ section.sep { padding-top: 48px;}
 .serviceDiv .service2 {margin-top:20px;}
 .serviceDiv .service2 .serviceItem{width: 47%;font-size: 2rem;position: relative;}
 .serviceDiv .service2 .serviceItem .serviceTxt{margin-top: 60px;}
-.serviceDiv .roundLink{font-size: 1.45rem;;right: 5%; bottom: 110px;width: 100px;height: 100px;border-radius: 100px;line-height: 100px;}
+.serviceDiv .roundLink{font-size: 1.45rem; bottom: 110px;width: 100px;height: 100px;border-radius: 100px;line-height: 100px;}
 
 }
 
@@ -1226,7 +1226,7 @@ section.sep { padding-top: 48px;}
 .serviceDiv .service2 {margin-top:20px;flex-direction: column; }
 .serviceDiv .service2 .serviceItem{padding: 20px; width: 90%;font-size: 1.6rem;position: relative; margin-top: 20px;border: 1px solid #4d4e4f;}
 .serviceDiv .service2 .serviceItem .serviceTxt{margin-top: 30px;}
-.serviceDiv .roundLink{font-size: 1.4rem;;right: 2%; bottom: 110px;width: 80px;height:80px;line-height: 80px;}
+.serviceDiv .roundLink{font-size: 1.4rem;right: 2%; bottom: 110px;width: 80px;height:80px;line-height: 80px;}
 
 }
 
