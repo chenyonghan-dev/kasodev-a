@@ -1356,21 +1356,20 @@ section.sep { padding-top: 48px;}
 
 .functionDiv{margin-top: 40px; padding-bottom: 60px;}
 .functionDiv .functionLine{font-size: 3.33rem;text-align: center; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
-.functionDiv .fourFunDiv{font-size: #666666; display: flex;align-items: flex-start;justify-content: space-between;}
-.functionDiv .fourFunDiv .leftItems{width: 49%;margin-top: 15px;}
-.functionDiv .fourFunDiv .rightItems{width: 49%;margin-top: 15px;}
-.functionDiv .fourFunDiv .funItem{min-height: 187px;padding: 30px 20px;width: 100%;margin-top: 25px;background-color: #f5f5f5;border-radius:15px;border: 1px solid #dadada;}
+.functionDiv .fourFunDiv{margin-top: 25px; font-size: #666666; display: grid;gap:20px;grid-template-columns: repeat(2,1fr);}
+.functionDiv .fourFunDiv .funItem{padding: 30px 20px;width: 100%;background-color: #f5f5f5;border-radius:15px;border: 1px solid #dadada;}
 .functionDiv .fourFunDiv .funItem .funTitle{font-size: 2.17rem;}
 .functionDiv .fourFunDiv .funItem .funTxt{font-size: 1.83rem;margin-top: 10px;}
 
 .advantageDiv {margin-top: 40px;padding-top: 40px;padding-bottom: 60px; width: 100%;background-color: #e4f1f5;}
 .advantageDiv .advantageLine{text-align: center; font-size: 3.33rem; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
-.advantageDiv .advFiveDiv{margin-top: 40px; color: #4d4d4d; flex-wrap: wrap; display: flex;align-items: flex-start;justify-content: space-between;}
-.advantageDiv .advFiveDiv .advantageItem{min-height: 300px;padding: 45px 20px 30px; width: 30%;background-color: #fff;box-shadow: 5px 5px 8px #7b959c;}
+.advantageDiv .advFiveDiv{margin-top: 40px; color: #4d4d4d; }
+.advantageDiv .midAdvFiveDiv{display: none;}
+.advantageDiv .advTopDiv3{grid-template-columns: repeat(3, 1fr);gap: 20px;display: grid; }
+.advantageDiv .advBottomDiv3{margin-top: 20px; padding: 0px 17%;grid-template-columns: repeat(2, 1fr);gap: 20px;display: grid; }
+.advantageDiv .advFiveDiv .advantageItem{  padding: 20px 30px; background-color: #fff;box-shadow: 5px 5px 8px #7b959c;}
 .advantageDiv .advFiveDiv .advantageItem .advTitle{text-align: center; font-size: 1.83rem;}
 .advantageDiv .advFiveDiv .advantageItem .advTxt{font-size: 1.5rem;margin-top: 20px;}
-.advantageDiv .advFiveDiv .advBottomTwoDiv1{margin-top: 40px;margin-left:17.5%;}
-.advantageDiv .advFiveDiv .advBottomTwoDiv2{margin-top: 40px;margin-right:17.5%;}
 
 .effectDiv{margin-top: 40px;padding-bottom:600px;}
 .effectDiv .effectLine{text-align: center; font-size: 3.33rem; width: 100%;border-bottom: 1px solid #4d4d4d;color:#4d4d4d;}
@@ -1398,11 +1397,10 @@ section.sep { padding-top: 48px;}
 .functionDiv .fourFunDiv .funItem .funTxt{font-size: 1.6rem;margin-top: 10px;}
 
 .skillDiv .skillLine{font-size: 3rem;}
-.advantageDiv .advFiveDiv .advantageItem{min-height: 300px;padding: 45px 20px 30px; width: 48%;}
-.advantageDiv .advFiveDiv .advBottomTwoDiv1{margin-top: 0;margin-left:0;}
-.advantageDiv .advFiveDiv .advBottomTwoDiv2{margin-top: 0;margin-right:0;}
-.advantageDiv .advFiveDiv{margin-top: 0;}
-.advantageDiv .advFiveDiv .advantageItem{margin-top: 30px;}
+.advantageDiv .advFiveDiv .advTopDiv3{display: none !important;}
+.advantageDiv .advFiveDiv .advBottomDiv3{display: none !important;}
+.advantageDiv .midAdvFiveDiv{display: grid !important;gap: 20px; grid-template-columns: repeat(2,1fr); margin-top: 20px;}
+.advantageDiv .advFiveDiv .advantageItem{  padding: 15px; }
 
 .effectDiv{margin-top: 40px;padding-top: 40px; padding-bottom: 400px;}
 .effectDiv .effectLine{font-size: 3rem; }
@@ -1428,16 +1426,13 @@ section.sep { padding-top: 48px;}
 .functionDiv .functionLine{font-size: 3rem;}
 .functionDiv .fourFunDiv .funItem .funTitle{font-size: 2rem;}
 .functionDiv .fourFunDiv .funItem .funTxt{font-size: 1.6rem;margin-top: 10px;}
-.functionDiv .fourFunDiv{flex-direction: column;}
-.functionDiv .fourFunDiv .leftItems{width: 100%;margin-top: 10px;}
-.functionDiv .fourFunDiv .rightItems{width: 100%;margin-top: 10px;}
+.functionDiv .fourFunDiv{grid-template-columns: repeat(1,1fr);}
 
 .skillDiv .skillLine{font-size: 3rem;}
-.advantageDiv .advFiveDiv .advantageItem{min-height: 250px; padding: 20px; width: 100%;}
-.advantageDiv .advFiveDiv .advBottomTwoDiv1{margin-top: 0;margin-left:0;}
-.advantageDiv .advFiveDiv .advBottomTwoDiv2{margin-top: 0;margin-right:0;}
-.advantageDiv .advFiveDiv{margin-top: 0;}
-.advantageDiv .advFiveDiv .advantageItem{margin-top: 30px;}
+.advantageDiv .advTopDiv3{grid-template-columns: repeat(1, 1fr);}
+.advantageDiv .advBottomDiv3{padding: 0; grid-template-columns: repeat(1, 1fr);}
+.advantageDiv .advFiveDiv .advantageItem .advTxt{margin-top: 10px;}
+.advantageDiv .midAdvFiveDiv{display: none; }
 
 .effectDiv{margin-top: 40px;padding-top: 40px; padding-bottom: 400px;}
 .effectDiv .effectLine{font-size: 3rem; }
